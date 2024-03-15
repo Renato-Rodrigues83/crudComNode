@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "postgres": "^3.4.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "name": "nodecrud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
